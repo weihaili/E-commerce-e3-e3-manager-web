@@ -85,6 +85,12 @@
 			<artifactId>jsp-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<!-- junit test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 	<!-- plugins configuration -->
 	<build>
@@ -92,11 +98,11 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
-					<artifactId>tomcat7-maven-plugin</artifactId>
-					<configuration>
-						<path>/</path>
-						<port>8081</port>
-					</configuration>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<path>/</path>
+					<port>8081</port>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
