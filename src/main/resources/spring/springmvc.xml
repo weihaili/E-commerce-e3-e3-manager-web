@@ -41,4 +41,5 @@
 	<dubbo:reference interface="cn.kkl.mall.service.ItemDescService" id="itemDescService" />
 	<dubbo:reference interface="cn.kkl.mall.content.service.ContentCategoryService" id="contentCategoryService"></dubbo:reference>
 	<dubbo:reference interface="cn.kkl.mall.content.service.ContentService" id="contentService"></dubbo:reference>
+	<dubbo:reference interface="cn.kkl.mall.search.service.SearchItemService" id="searchItemService"></dubbo:reference>
 </beans>
